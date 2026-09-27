@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Factors and Their Use in the App</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      font-size: 12pt;
+      line-height: 1.55;
+      color: #111;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+    h1, h2, h3 {
+      page-break-after: avoid;
+    }
+    h1 { font-size: 24pt; }
+    h2 { font-size: 18pt; margin-top: 28px; }
+    h3 { font-size: 14pt; margin-top: 18px; }
+    p, li {
+      orphans: 3;
+      widows: 3;
+    }
+    ul {
+      margin: 8px 0 14px 24px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+      font-size: 10.5pt;
+    }
+    th, td {
+      border: 1px solid #666;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background: #f3f3f3;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #999;
+      margin: 18px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Factors Considered When Communicating a Possible Cancer Warning and How They Can Be Used in the App</h1>
+
+  <p><strong>Prepared for supervisor discussion</strong><br />
+  <strong>Project:</strong> SkinSafe<br />
+  <strong>Date:</strong> August 13, 2026</p>
+
+  <hr />
+
+  <h2>1. Introduction</h2>
+  <p>
+    When a doctor communicates a serious warning such as a possible cancer-related finding, the message is not based only on the medical result.
+    Doctors also consider the emotional, social, economic, and psychological condition of the patient.
+    These same ideas can be applied to the design of a mobile health application such as SkinSafe.
+  </p>
+  <p>
+    This document explains the main factors involved in doctor-patient communication and shows how each factor can be translated into practical app design decisions.
+  </p>
+
+  <h2>2. Mental State of the Patient</h2>
+  <h3>Why it matters</h3>
+  <p>
+    If a patient is already anxious, frightened, or emotionally overwhelmed, harsh or direct wording can increase panic.
+    For this reason, doctors usually communicate carefully, observe the patient’s reaction, and explain serious findings gradually.
+  </p>
+
+  <h3>How it can be used in the app</h3>
+  <p>
+    The app should avoid shocking or panic-inducing language.
+    Instead of using phrases such as “Cancer Detected” or “Dangerous Result,” the app should use calm and action-focused wording.
+  </p>
+
+  <h3>Practical app design ideas</h3>
+  <ul>
+    <li>Use supportive result headings such as “Caution Advised” or “Specialist Review Recommended.”</li>
+    <li>Avoid flashing red warning visuals or aggressive alert language.</li>
+    <li>Present the result in stages: short summary, simple explanation, and next action.</li>
+    <li>Use soft and medically calm colors.</li>
+    <li>Add supportive wording such as “This result is intended to guide your next step.”</li>
+  </ul>
+
+  <h2>3. Economic and Socioeconomic Factors</h2>
+  <h3>Why it matters</h3>
+  <p>
+    Even if the doctor gives the correct warning, the patient may not be able to immediately afford specialist consultation, laboratory tests, transport, or time away from work.
+    Therefore, doctors often think practically as well as clinically.
+  </p>
+
+  <h3>How it can be used in the app</h3>
+  <p>
+    The app should not only give a warning. It should also suggest realistic next steps that are manageable for different users.
+  </p>
+
+  <h3>Practical app design ideas</h3>
+  <ul>
+    <li>Allow the user to save the result and monitor the same lesion over time.</li>
+    <li>Allow repeat scanning and comparison of previous records.</li>
+    <li>Use guidance such as “Repeat this scan in a few days if the lesion changes.”</li>
+    <li>Avoid forcing only one costly or urgent path unless the risk is clearly high.</li>
+    <li>Help users prepare history and images before seeing a doctor.</li>
+  </ul>
+
+  <h2>4. Health Literacy</h2>
+  <h3>Why it matters</h3>
+  <p>
+    Many patients may not understand technical medical words such as melanoma, malignant, lesion, or biopsy.
+    Doctors often simplify language depending on the patient’s educational and medical understanding.
+  </p>
+
+  <h3>How it can be used in the app</h3>
+  <p>
+    The app should explain results using simple language. Technical words should be minimized or clearly explained.
+  </p>
+
+  <h3>Practical app design ideas</h3>
+  <ul>
+    <li>Add a “What this means” section under the result.</li>
+    <li>Use simple explanations under medical terms.</li>
+    <li>Teach the ABCDE rule with easy cards and examples.</li>
+    <li>Show simple information first, and detailed information only if the user wants more.</li>
+    <li>Use patient-friendly terms such as “higher concern pattern” instead of overly technical labels.</li>
+  </ul>
+
+  <h2>5. Family Support and Social Context</h2>
+  <h3>Why it matters</h3>
+  <p>
+    Some patients cope better when a family member or trusted supporter is involved. Others prefer private review first.
+    Doctors often adapt communication based on the patient’s support system and personal preference.
+  </p>
+
+  <h3>How it can be used in the app</h3>
+  <p>
+    The app can allow the user to save, review, and later share the result.
+    This supports discussion with a family member or doctor without forcing an immediate emotional decision.
+  </p>
+
+  <h3>Practical app design ideas</h3>
+  <ul>
+    <li>Allow users to save the result in history.</li>
+    <li>Provide a summary that can be shown later during consultation.</li>
+    <li>Add wording such as “You may wish to discuss this result with a family member or clinician.”</li>
+    <li>Support future report-sharing features.</li>
+    <li>Avoid forcing the user to react instantly on the same screen.</li>
+  </ul>
+
+  <h2>6. Privacy, Setting, and Timing</h2>
+  <h3>Why it matters</h3>
+  <p>
+    Doctors do not normally give serious news in an exposed, noisy, or rushed environment.
+    Privacy and timing influence how safely the patient receives the information.
+  </p>
+
+  <h3>How it can be used in the app</h3>
+  <p>
+    The result screen should feel calm, private, and focused.
+    Sensitive results should not be shown in a visually chaotic or alarm-heavy way.
+  </p>
+
+  <h3>Practical app design ideas</h3>
+  <ul>
+    <li>Use a clean and uncluttered result layout.</li>
+    <li>Reduce unnecessary distractions on the result page.</li>
+    <li>Keep the tone respectful and calm.</li>
+    <li>Use progressive disclosure instead of too much information at once.</li>
+    <li>Present next steps clearly and calmly.</li>
+  </ul>
+
+  <h2>7. Patient Preference and Readiness</h2>
+  <h3>Why it matters</h3>
+  <p>
+    Not every patient wants the same amount of information immediately.
+    Some prefer a short summary first. Others want detailed explanation and probabilities.
+  </p>
+
+  <h3>How it can be used in the app</h3>
+  <p>
+    The app should let users move from basic information to detailed information gradually.
+  </p>
+
+  <h3>Practical app design ideas</h3>
+  <ul>
+    <li>Show a simple summary first.</li>
+    <li>Add optional detailed explanation below.</li>
+    <li>Use clear sections such as “Result Summary,” “What This Means,” and “What to Do Next.”</li>
+    <li>Keep high-level advice visible even if technical details are hidden.</li>
+  </ul>
+
+  <h2>8. The SPIKES Protocol and Its Application in the App</h2>
+  <p>
+    The SPIKES protocol is a widely used framework for breaking bad news in a structured and empathetic way.
+  </p>
+  <p>SPIKES stands for:</p>
+  <ul>
+    <li><strong>S</strong> – Setting</li>
+    <li><strong>P</strong> – Perception</li>
+    <li><strong>I</strong> – Invitation</li>
+    <li><strong>K</strong> – Knowledge</li>
+    <li><strong>E</strong> – Empathy</li>
+    <li><strong>S</strong> – Strategy and Summary</li>
+  </ul>
+
+  <h3>How SPIKES can be translated into the app</h3>
+  <ul>
+    <li><strong>Setting:</strong> Use a calm and respectful result screen.</li>
+    <li><strong>Perception:</strong> Use the questionnaire to understand what the user has already noticed.</li>
+    <li><strong>Invitation:</strong> Show a short summary first, then allow the user to read more details.</li>
+    <li><strong>Knowledge:</strong> Present the risk result in simple language.</li>
+    <li><strong>Empathy:</strong> Use soft and supportive wording.</li>
+    <li><strong>Strategy and Summary:</strong> End with practical next steps such as saving history, repeating the scan, or seeking specialist review.</li>
+  </ul>
+
+  <p>
+    Using the SPIKES idea helps transform the app from a simple image-classification tool into a more ethical and patient-centered digital health system.
+  </p>
+
+  <h2>9. Summary Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Factor</th>
+        <th>Why Doctors Consider It</th>
+        <th>Example App Response</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mental state</td>
+        <td>To avoid panic and emotional overload</td>
+        <td>Calm wording, soft UI, supportive result summary</td>
+      </tr>
+      <tr>
+        <td>Economic factors</td>
+        <td>To make next steps realistic and practical</td>
+        <td>Save history, follow-up guidance, repeat scan options</td>
+      </tr>
+      <tr>
+        <td>Health literacy</td>
+        <td>To ensure understanding</td>
+        <td>Plain language, simplified medical explanation</td>
+      </tr>
+      <tr>
+        <td>Family support</td>
+        <td>To improve coping and follow-up</td>
+        <td>Save/share-ready summary, history review</td>
+      </tr>
+      <tr>
+        <td>Privacy and setting</td>
+        <td>To protect dignity and reduce stress</td>
+        <td>Clean result screen, no alarming interface</td>
+      </tr>
+      <tr>
+        <td>Readiness and preference</td>
+        <td>To match user information needs</td>
+        <td>Short summary first, details later</td>
+      </tr>
+      <tr>
+        <td>SPIKES structure</td>
+        <td>To communicate difficult findings ethically</td>
+        <td>Guided result flow with empathy and action plan</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>10. Conclusion</h2>
+  <p>
+    The factors doctors consider when communicating a possible cancer warning can be directly applied to a mobile application.
+    In SkinSafe, these factors are not only medical communication ideas; they become practical design principles.
+  </p>
+  <p>
+    By considering mental state, economic limitations, health literacy, family support, privacy, and SPIKES-based communication structure,
+    the application can present results in a more ethical, human-centered, and clinically respectful way.
+  </p>
+  <p>
+    This gives the project an important research contribution beyond AI prediction alone.
+    It shows that the system is designed not only to analyze lesions, but also to communicate risk responsibly.
+  </p>
+</body>
+</html>

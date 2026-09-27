@@ -1,0 +1,107 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.python/
+.tmp/
+
+# Local tools, caches, and downloaded research data
+/.agents/
+/.codex/
+/.dart_appdata/
+/.dart_localappdata/
+/.isic-data/
+/.ndk/
+/tmp/
+**/__pycache__/
+**/.venv/
+**/venv/
+**/node_modules/
+**/build/
+/ml/dataset/
+/ml/output_backup_*/
+/ml/output_candidate*/
+
+# Keep the active models and their metadata, but not training checkpoints.
+/ml/output/*
+!/ml/output/melanoma_risk_classifier.tflite
+!/ml/output/melanoma_risk_classifier.keras
+!/ml/output/model_config.json
+!/ml/output/evaluation_metrics.json
+!/ml/output/labels.txt
+!/ml/output/training_history.json
+
+# Credentials, signing material, and local databases
+.env
+.env.*
+!.env.example
+!.env.template
+*service-account*.json
+*service_account*.json
+*firebase-adminsdk*.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+key.properties
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+/database/
+
+# Temporary captures and command output from local debugging
+/tmp_*
+/*_probe.png
+/blank_*.png
+/direct_launch.png
+/final_pixelsafe.png
+/melanoma_screen*.png
+/flutter_widget_test_output.txt
+~$*
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

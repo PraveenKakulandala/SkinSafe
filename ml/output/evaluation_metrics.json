@@ -1,0 +1,22 @@
+{
+  "accuracy": 0.8085106611251831,
+  "auc": 0.9262820482254028,
+  "loss": 0.4225307106971741,
+  "precision": 0.46666666865348816,
+  "recall": 0.875,
+  "validation_threshold": 0.37499999999999994,
+  "validation_threshold_precision": 0.3333333333333333,
+  "validation_threshold_recall": 1.0,
+  "validation_threshold_specificity": 0.5897435897435898,
+  "validation_threshold_accuracy": 0.6595744680851063,
+  "validation_threshold_f_beta": 0.8333333333333333,
+  "validation_threshold_f2": 0.7142857142857143,
+  "validation_threshold_beta": 3.0,
+  "test_threshold": 0.37499999999999994,
+  "test_threshold_precision": 0.3181818181818182,
+  "test_threshold_recall": 0.875,
+  "test_threshold_specificity": 0.6153846153846154,
+  "test_threshold_accuracy": 0.6595744680851063,
+  "test_threshold_f_beta": 0.7446808510638298,
+  "test_threshold_f2": 0.6481481481481483
+}

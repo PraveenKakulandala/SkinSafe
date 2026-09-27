@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<title>Supervisor Discussion Brief</title>
+<style>
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #111;
+}
+
+h1,
+h2,
+h3 {
+  page-break-after: avoid;
+}
+
+p,
+li {
+  orphans: 3;
+  widows: 3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 10.5pt;
+}
+
+th,
+td {
+  border: 1px solid #666;
+  padding: 6px 8px;
+  vertical-align: top;
+}
+
+th {
+  background: #f3f3f3;
+}
+
+code {
+  font-family: Consolas, monospace;
+  font-size: 10pt;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #999;
+  margin: 18px 0;
+}
+
+body { max-width: 900px; margin: 40px auto; padding: 0 24px; }
+h1 { font-size: 24pt; }
+h2 { font-size: 18pt; margin-top: 28px; }
+h3 { font-size: 14pt; margin-top: 20px; }
+ul { margin: 8px 0 12px 24px; }
+</style>
+</head>
+<body>
+<h1>Supervisor Discussion Brief</h1>
+<h2>SkinSafe Mobile Application Progress and Research Direction on Ethical Communication of Cancer-Related Warnings</h2>
+<p>**Project Title:** SkinSafe: Melanoma Skin Cancer Screening Support and Follow-Up Mobile Application  <br/>**Prepared For:** Project Supervisor Discussion  <br/>**Prepared By:** K. L. D. P. P. Kakulandala  <br/>**Date:** August 13, 2026</p>
+<hr/>
+<h2>1. Introduction</h2>
+<p>This document provides a formal update on the current progress of the SkinSafe mobile application and introduces an important research direction recommended for further discussion with the project supervisor. The first part of the document summarizes the technical and functional development progress of the application. The second part examines the ethical, psychosocial, and communication-related factors that doctors consider when informing patients about possible cancer-related findings. This second area is especially relevant to the application because SkinSafe does not merely generate a screening result; it also presents that result to the user. Therefore, the way the result is communicated is a significant research problem, not only a user interface problem.</p>
+<hr/>
+<h2>2. Current Progress of the Mobile Application</h2>
+<p>The SkinSafe project has now progressed into a strong functional stage where the main workflows of the application are implemented and integrated. At this stage, the application can be described as a patient-centered melanoma screening-support mobile application with AI-assisted risk output, longitudinal lesion tracking, and educational support features.</p>
+<h3>2.1 Completed Functional Modules</h3>
+<p>The following major components are currently implemented:</p>
+<p>#### 2.1.1 User Authentication and Access</p>
+<ul><li>User registration using email and password</li></ul>
+<ul><li>User login and logout</li></ul>
+<ul><li>Forgot password flow</li></ul>
+<ul><li>Firebase-based authentication integration</li></ul>
+<p>#### 2.1.2 Guided Scan Workflow</p>
+<ul><li>Patient details entry</li></ul>
+<ul><li>Selection of body area</li></ul>
+<ul><li>Lesion or mole label entry</li></ul>
+<ul><li>Questionnaire-based risk context collection</li></ul>
+<ul><li>Camera capture or gallery image upload</li></ul>
+<p>#### 2.1.3 AI-Supported Screening Flow</p>
+<ul><li>Image selection and preparation for screening</li></ul>
+<ul><li>AI prediction flow integrated into the application</li></ul>
+<ul><li>Result display using patient-friendly wording</li></ul>
+<ul><li>Follow-up recommendation messaging</li></ul>
+<p>#### 2.1.4 History and Longitudinal Tracking</p>
+<ul><li>Saving scan records to history</li></ul>
+<ul><li>Organizing history by patient name</li></ul>
+<ul><li>Filtering saved records by body area</li></ul>
+<ul><li>Tracking lesion spots separately</li></ul>
+<ul><li>Viewing longitudinal lesion timelines</li></ul>
+<ul><li>Comparing latest and previous saved visits for the same lesion</li></ul>
+<p>#### 2.1.5 Follow-Up Support Features</p>
+<ul><li>Follow-up planning card on the dashboard</li></ul>
+<ul><li>Follow-up comparison support</li></ul>
+<ul><li>Ghost reference support for repeat lesion capture</li></ul>
+<ul><li>Guided 2-second stabilization flow for clearer capture</li></ul>
+<p>#### 2.1.6 Educational and Supportive Content</p>
+<ul><li>Learn page with ABCDE guidance</li></ul>
+<ul><li>Melanoma-related educational content</li></ul>
+<ul><li>Prevention and UV-support content</li></ul>
+<ul><li>Profile page with privacy and safety information</li></ul>
+<ul><li>Medical safety disclosure before full app usage</li></ul>
+<hr/>
+<h2>3. Current Nature of the System</h2>
+<p>The project is currently positioned as a **screening-support and follow-up application**, not as a final clinical diagnostic authority. This distinction is important from both a technical and ethical perspective.</p>
+<p>The application is designed to:</p>
+<ul><li>support early attention to suspicious lesions</li></ul>
+<ul><li>guide users to perform structured self-monitoring</li></ul>
+<ul><li>help maintain lesion history over time</li></ul>
+<ul><li>encourage follow-up action when risk-related patterns appear</li></ul>
+<ul><li>present results in a calm, non-panic-inducing, ethically sensitive way</li></ul>
+<p>In other words, the application is not intended to replace dermatologists, biopsy, or specialist review. Instead, it is designed to support patients in a responsible, structured, and emotionally aware way.</p>
+<hr/>
+<h2>4. Why the Communication of Serious Results Is a Research Problem</h2>
+<p>A key issue raised for further research is the following:</p>
+<p>&gt; When a doctor has to tell a patient that a result may indicate cancer, what factors must the doctor consider before delivering that warning, and how should the message be communicated?</p>
+<p>This is a highly relevant question for the SkinSafe project because the application presents potentially sensitive health-related output to users. If the wording is too direct, alarming, or emotionally careless, the app could increase fear rather than support timely medical action. Therefore, this issue belongs not only to medicine, but also to:</p>
+<ul><li>digital health ethics</li></ul>
+<ul><li>human-computer interaction</li></ul>
+<ul><li>patient-centered communication</li></ul>
+<ul><li>clinical psychology</li></ul>
+<ul><li>user experience design in healthcare</li></ul>
+<p>This means that the applicationâ€™s result communication layer can become a major original contribution in the research.</p>
+<hr/>
+<h2>5. Factors Doctors Consider Before Telling a Patient About Possible Cancer</h2>
+<p>When doctors communicate serious findings such as suspected cancer, they do not normally deliver the information in a purely technical manner. Instead, they consider multiple human, emotional, social, and situational factors.</p>
+<h3>5.1 Emotional and Psychological Condition of the Patient</h3>
+<p>One of the most important factors is the patientâ€™s current emotional state. A patient may already be anxious, fearful, confused, or mentally overwhelmed even before hearing the result. If the doctor communicates the message too abruptly, the patient may panic, shut down emotionally, misunderstand the information, or fail to follow the next step properly.</p>
+<p>Therefore, doctors generally consider:</p>
+<ul><li>whether the patient is visibly distressed</li></ul>
+<ul><li>whether the patient seems emotionally prepared</li></ul>
+<ul><li>whether the patient has anxiety, shock, or denial</li></ul>
+<ul><li>whether the patient can process difficult information at that moment</li></ul>
+<p>This shows that the communication must be adapted to the patientâ€™s psychological readiness, not only to the content of the result itself.</p>
+<h3>5.2 Health Literacy and Educational Understanding</h3>
+<p>Doctors also consider whether the patient can understand medical terminology. Many patients may not understand words such as:</p>
+<ul><li>malignant</li></ul>
+<ul><li>lesion</li></ul>
+<ul><li>melanoma</li></ul>
+<ul><li>biopsy</li></ul>
+<ul><li>specialist referral</li></ul>
+<p>If the patientâ€™s health literacy is limited, the doctor must use simpler, non-technical language and explain the meaning step by step. This is especially important in mobile health applications, because there is no doctor physically present to immediately clarify confusion.</p>
+<h3>5.3 Socioeconomic and Economic Factors</h3>
+<p>The patientâ€™s economic situation can strongly affect how the information should be communicated and what practical recommendations can be made afterward. Even if the patient receives a serious warning, the ability to act on that warning may depend on:</p>
+<ul><li>affordability of consultation</li></ul>
+<ul><li>travel cost</li></ul>
+<ul><li>access to specialists</li></ul>
+<ul><li>ability to miss work</li></ul>
+<ul><li>family financial dependence</li></ul>
+<p>Doctors therefore consider not only the seriousness of the finding, but also the realism of the next step. Ethical communication includes practical thinking, not only medical accuracy.</p>
+<h3>5.4 Social Support and Family Context</h3>
+<p>Some patients receive serious information better when a trusted family member or support person is present. Others prefer private communication first. Doctors often consider:</p>
+<ul><li>whether the patient is alone</li></ul>
+<ul><li>whether the patient wants a family member involved</li></ul>
+<ul><li>whether there is a support network at home</li></ul>
+<ul><li>whether the patient is likely to cope better with help nearby</li></ul>
+<p>This is an important reminder that communication of bad news is not an isolated event. It takes place within a social context.</p>
+<h3>5.5 Culture, Religion, and Personal Beliefs</h3>
+<p>Patient expectations about how serious news should be communicated can vary depending on culture, religion, and family norms. Some patients prefer complete direct disclosure. Others prefer gradual explanation. Some expect relatives to be involved. Some value preservation of hope very strongly.</p>
+<p>Therefore, doctors try to remain culturally sensitive and avoid assuming that every patient wants the same communication style.</p>
+<h3>5.6 Environment, Privacy, and Timing</h3>
+<p>Doctors also pay attention to the setting in which serious findings are communicated. Bad news should not be delivered carelessly in a crowded, noisy, rushed, or public environment. The communication setting matters because:</p>
+<ul><li>privacy protects dignity</li></ul>
+<ul><li>calm surroundings reduce emotional overload</li></ul>
+<ul><li>time allows questions</li></ul>
+<ul><li>interruptions reduce trust and clarity</li></ul>
+<p>This factor is highly relevant to app design as well. A sensitive result should be displayed in a calm, respectful, and supportive interface rather than in a shocking or alarm-heavy visual form.</p>
+<h3>5.7 Patient Preference About Information</h3>
+<p>Not every patient wants the same amount of information immediately. Some want full detail. Others want a summary first. Some patients ask directly, â€œIs it cancer?â€ while others first want to know what should happen next.</p>
+<p>Doctors therefore consider:</p>
+<ul><li>how much the patient wants to know at that moment</li></ul>
+<ul><li>whether the patient wants a gradual explanation</li></ul>
+<ul><li>whether immediate next steps are more useful than technical detail</li></ul>
+<p>This is important in digital systems because result pages should support different levels of information depth rather than overwhelming every user instantly.</p>
+<h3>5.8 Urgency and Risk Level</h3>
+<p>Finally, the actual risk level affects how strongly and urgently the message should be communicated. Not every suspicious result requires the same level of urgency. A doctor balances:</p>
+<ul><li>seriousness of the finding</li></ul>
+<ul><li>uncertainty in the evidence</li></ul>
+<ul><li>need for specialist review</li></ul>
+<ul><li>need for rapid action</li></ul>
+<ul><li>patientâ€™s emotional tolerance</li></ul>
+<p>This is one reason why soft but action-oriented wording such as â€œCaution Advisedâ€ or â€œSpecialist Review Recommendedâ€ can be more appropriate than alarming labels.</p>
+<hr/>
+<h2>6. The SPIKES Protocol and Its Relevance</h2>
+<p>One of the best-known frameworks for communicating bad news in clinical care is the **SPIKES protocol**. This framework is highly relevant to the SkinSafe project because it offers a structured and ethically responsible model for result communication.</p>
+<p>SPIKES stands for:</p>
+<ul><li>**S** â€“ Setting up the interview</li></ul>
+<ul><li>**P** â€“ Assessing the patientâ€™s Perception</li></ul>
+<ul><li>**I** â€“ Obtaining the patientâ€™s Invitation</li></ul>
+<ul><li>**K** â€“ Giving Knowledge and information</li></ul>
+<ul><li>**E** â€“ Addressing Emotions with empathy</li></ul>
+<ul><li>**S** â€“ Strategy and Summary</li></ul>
+<h3>6.1 Setting</h3>
+<p>The doctor ensures that the message is delivered in a private, calm, respectful setting.</p>
+<h3>6.2 Perception</h3>
+<p>The doctor first tries to understand what the patient already believes or suspects about the condition.</p>
+<h3>6.3 Invitation</h3>
+<p>The doctor checks how much information the patient wants at that point.</p>
+<h3>6.4 Knowledge</h3>
+<p>The doctor provides the information gradually and clearly, using understandable language.</p>
+<h3>6.5 Emotion and Empathy</h3>
+<p>The doctor acknowledges the patientâ€™s emotional response rather than ignoring it.</p>
+<h3>6.6 Strategy and Summary</h3>
+<p>The doctor concludes with a practical plan, next actions, and reassurance that the patient is not being abandoned.</p>
+<h3>6.7 Why SPIKES Matters for SkinSafe</h3>
+<p>The SkinSafe application can be strengthened academically by using the logic of SPIKES as part of its digital result delivery approach. That means:</p>
+<ul><li>the app should avoid panic-inducing language</li></ul>
+<ul><li>the app should deliver results using calm, supportive wording</li></ul>
+<ul><li>the app should provide clear next steps</li></ul>
+<ul><li>the app should acknowledge uncertainty</li></ul>
+<ul><li>the app should preserve user dignity and emotional safety</li></ul>
+<p>This creates a strong connection between clinical ethics and user interface design.</p>
+<hr/>
+<h2>7. How This Research Direction Fits the Mobile Application</h2>
+<p>This research topic directly supports the originality of the project. The app is not only about machine learning or image classification. It is also about:</p>
+<ul><li>how a sensitive result is presented</li></ul>
+<ul><li>how risk is translated into human language</li></ul>
+<ul><li>how emotional harm can be reduced</li></ul>
+<ul><li>how digital tools can imitate patient-centered clinical communication</li></ul>
+<p>This means the project can be positioned as:</p>
+<p>&gt; A melanoma screening-support mobile application that combines AI-based image analysis with ethical digital communication and structured follow-up support.</p>
+<p>That is academically stronger than presenting the work only as an image classification application.</p>
+<hr/>
+<h2>8. Possible Research Framing for the Supervisor Discussion</h2>
+<p>The following research framing can be discussed:</p>
+<h3>8.1 Main Extended Research Direction</h3>
+<p>&gt; To investigate how cancer-related warnings should be communicated to patients in an ethical, empathetic, and patient-centered way, and how these principles can be incorporated into an AI-assisted melanoma screening mobile application.</p>
+<h3>8.2 Alternative Formal Statement</h3>
+<p>&gt; To study the psychosocial, economic, and communication-related factors clinicians consider when delivering possible cancer warnings to patients, and to translate those principles into the result communication design of a mobile melanoma screening-support application.</p>
+<h3>8.3 Why This Is Valuable</h3>
+<p>This direction strengthens the project by adding:</p>
+<ul><li>ethical depth</li></ul>
+<ul><li>healthcare realism</li></ul>
+<ul><li>psychological sensitivity</li></ul>
+<ul><li>stronger user-centered design justification</li></ul>
+<ul><li>stronger academic originality</li></ul>
+<hr/>
+<h2>9. Suggested Verbal Summary for the Supervisor</h2>
+<p>The following paragraph can be used in discussion:</p>
+<p>&gt; The SkinSafe mobile application has now reached a strong functional stage. The core modules such as authentication, guided scan workflow, AI-supported result presentation, history tracking, follow-up comparison, and patient education are already implemented. In addition to the technical progress, an important research direction is the ethical communication of possible cancer-related findings. Doctors do not simply tell patients that they may have cancer in a direct technical way; they consider the patientâ€™s emotional state, health literacy, socioeconomic limitations, family support, cultural background, and readiness to receive difficult information. This is often explained through the SPIKES protocol for breaking bad news. I would like to use these principles as part of the applicationâ€™s result communication design, so that the app does not only detect risk, but also presents it in a supportive, non-panic-inducing, and ethically appropriate manner.</p>
+<hr/>
+<h2>10. Conclusion</h2>
+<p>The SkinSafe project has moved beyond the early concept stage and now includes a working multi-feature mobile application for guided lesion screening, lesion history tracking, AI-supported risk output, and follow-up support. However, one of the most meaningful research extensions now lies in how the application communicates sensitive health findings.</p>
+<p>The supervisorâ€™s suggestion to investigate how doctors deliver cancer-related warnings is highly relevant to the system. The evidence shows that such communication depends on much more than the medical result itself. Emotional condition, health literacy, economic limitations, family support, culture, timing, privacy, and urgency all influence how information should be delivered. The SPIKES protocol provides a structured and widely recognized clinical model that can guide this work.</p>
+<p>Therefore, this research direction can become a major conceptual strength of the project by transforming the application from a purely technical screening tool into an ethically informed, patient-centered digital health system.</p>
+<hr/>
+<h2>11. References</h2>
+<p>[1] National Cancer Institute, â€œCommunication in Cancer Care (PDQ)â€“Health Professional Version,â€ National Cancer Institute, 2025. [Online]. Available: https://www.cancer.gov/about-cancer/coping/adjusting-to-cancer/communication-hp-pdq</p>
+<p>[2] S. Monden et al., â€œClinical Practice Guidelines on Breaking Bad News,â€ *Indian Journal of Palliative Care*, vol. 29, no. 4, 2023. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10096205/</p>
+<p>[3] M. Bumb, S. Keefe, and K. Miller, â€œBreaking bad news: A guide for effective and empathetic communication,â€ *The Nurse Practitioner*, vol. 42, no. 11, pp. 14â€“17, 2017. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC5578619/</p>
+<p>[4] A. M. Holden et al., â€œThe role of health literacy in cancer care: A mixed studies systematic review,â€ *Psycho-Oncology*, vol. 30, no. 9, pp. 1479â€“1490, 2021. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC8589210/</p>
+<p>[5] National Institute for Health and Care Excellence, â€œShared decision making,â€ NICE Guideline NG197, 2021. [Online]. Available: https://www.nice.org.uk/guidance/ng197/chapter/recommendations</p>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "skinsafe-498f3",
+          "appId": "1:276612707764:android:2da637934721d36b77aee1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "skinsafe-498f3",
+          "configurations": {
+            "android": "1:276612707764:android:2da637934721d36b77aee1"
+          }
+        }
+      }
+    }
+  }
+}

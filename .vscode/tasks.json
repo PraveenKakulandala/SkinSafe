@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SkinSafe: Start AI API",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\scripts\\run_ai_api.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "SkinSafe: Check AI Health",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\scripts\\check_ai_health.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "SkinSafe: Run Flutter Emulator",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\scripts\\run_flutter_emulator.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "SkinSafe: Run Flutter USB",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\scripts\\run_flutter_usb.ps1",
+        "-DeviceId",
+        "073bdad90406"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "SkinSafe: Widget Tests",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\scripts\\run_widget_tests.ps1"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
